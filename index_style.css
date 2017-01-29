@@ -1,0 +1,101 @@
+body{
+    background-color: #2196f3;
+    font-family: 'Roboto', helvetica, sans-serif;
+    padding-top: 60px;
+}
+
+.logo{
+    display: block;
+    height: 35px;
+    margin: 0px auto 30px;
+}
+
+main{
+    margin: 0 auto;
+    width: 400px;
+    border-radius: 3px;
+    background: white;
+    
+}
+.form_section{
+    height: auto;
+    padding: 40px;
+    background: white;
+    border-radius: 3px;
+}
+
+input, label{
+    display: block;  
+    margin-bottom: 18px;
+}
+
+input{
+    width: 320px;
+    border: 2px solid #cfd8dc;
+    border-radius: 3px;
+    height: 55px;
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+.sign_up:hover{
+    background-color: #00c853;
+    border-color: #00c853;
+}
+
+.form_section legend{
+    text-align: center;
+    font-weight: 300;
+    color: #565656;
+    margin: 0 auto 45px;
+    font-size: 35px;
+    line-height: 38px;
+    letter-spacing: 0;
+}
+
+.sign_up{
+    height: 55px;
+    width: 320px;
+    margin: 10px 0px 10px 0px;
+    background-color: #00e676;
+    border-radius: 2px;
+    font-size: 22px;
+    font-weight: 500;
+    font: white;
+    color: white;
+    border: 2px solid #00e676;
+}
+
+.form_section p {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    color: #999;
+}
+
+.form_section a {
+    text-decoration: none;
+    color: #999;
+    border-bottom: 1px solid #bbb;
+}
+
+.form_section a:hover {
+    border-color: #999;
+    color: #777;
+}
+
+.footer{
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    margin: 20px auto;
+}
+
+.footer a{
+    color: white;
+}
+
+.footer a:hover{ 
+    color: #E7F1F9
+}
